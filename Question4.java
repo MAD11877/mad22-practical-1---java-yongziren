@@ -21,7 +21,7 @@ public class Question4
     /*System.out.print("Input a integer for triangle base: ");*/
     int base = in.nextInt();
     for (int i = 1; i <= base; i++) {
-      for (int q = 1; q <= i; q++) {
+      for (int q = 1; q <= (base-i+1); q++) {
         System.out.print("*");
       }
       System.out.println();
