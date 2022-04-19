@@ -10,7 +10,11 @@ public class Question2
      * Hint: in.nextDouble() to read double
      */
      
-    Scanner in = new Scanner(System.in);
+    System.out.print("Input weight in kilogram: ");
+    double weight = in.nextDouble();
+    System.out.print("Input height in meters: ");
     double height = in.nextDouble();
+    double BMI = weight / (height * height);
+    System.out.print(BMI);
   }
 }
