@@ -29,13 +29,11 @@ public class Question5
 
     Scanner in = new Scanner(System.in);
     ArrayList<Integer> intlist = new ArrayList<Integer>();
-    System.out.print("Input an integer for the number of repeats: ");
     int repeat = in.nextInt();
     int highestrepeat = 0;
     int counter = 0;
     for (int i = 0; i < repeat; i++)
     {
-      System.out.print("Input an integer: ");
       int integer = in.nextInt();
       intlist.add(integer);
     }
